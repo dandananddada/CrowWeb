@@ -1,0 +1,64 @@
+.root-relative{
+	position: relative;
+	width: 120px;
+	height: 100px;
+	background-color: red;
+	left:40px;
+}
+.root-absolute{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	left: 120px;
+	right: 300px;
+}
+.root-static{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+.root-fixed{
+		width: 1200px;
+	height: 200px;
+	background-color: green;
+	position: fixed;
+	z-index: 9999;
+}
+
+.parent{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background-color: blue;
+	z-index: 100;
+}
+.brother{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	background-color: red;
+	z-index: 50px;
+	left: 0;
+	top: 0px;
+}
+
+.a{
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	z-index: 7;
+	background-color: black;
+	left: 0px;
+	top: 200px;
+}
+
+.b{
+	width: 200px;
+	height: 1000px;
+	position: absolute;
+	z-index: 153;
+	background-color: green;
+	left: 0px;
+	top: 0px;
+}
