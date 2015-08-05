@@ -1,3 +1,4 @@
+##
 GET方法和POST方法的区别：
 1. get是从服务器上获取数据，post是向服务器传送数据。
 2. get是把参数数据队列加到提交表单的ACTION属性所指的URL中，值和表单内各个字段一一对应，在URL中可以看到。post是通过HTTP post机制，将表单内各个字段与其内容放置在HTML HEADER内一起传送到ACTION属性所指的URL地址。用户看不到这个过程。
