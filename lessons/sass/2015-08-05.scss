@@ -1,0 +1,31 @@
+$baseColor: red;
+
+@mixin box-shadow($shadow...)
+{
+    -moz-box-shadow:$shadow;
+    box-shadow: $shadow;
+}
+
+.a{
+	color: $baseColor;
+}
+
+.v{
+	color: $baseColor;
+}
+
+.c{
+	color: $baseColor;
+}
+
+.a{
+	 font-size: 16px;
+	.b{
+		color: $baseColor;
+	}
+}
+.box
+{
+    @include box-shadow(0 5px 5px rgba(0,0,0,0.3));
+    border:1px solid #ccc;
+}

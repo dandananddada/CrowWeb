@@ -1,0 +1,20 @@
+.a {
+  color: red; }
+
+.v {
+  color: red; }
+
+.c {
+  color: red; }
+
+.a {
+  font-size: 16px; }
+  .a .b {
+    color: red; }
+
+.box {
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ccc; }
+
+/*# sourceMappingURL=test.css.map */
